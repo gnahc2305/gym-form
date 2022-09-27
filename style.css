@@ -32,13 +32,13 @@ img {
     width: 60%;
     position: absolute;
     right: 0;
-    background-image: linear-gradient(to right, white, rgb(88, 88, 88));
+    background-image: linear-gradient(to right, rgb(177, 173, 173), #303538);
     top: 50%;
     margin: 0;
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
-    border-radius: 8px;
-    /* box-shadow: 30px 10px 5px black; */
+    border-radius: 10px;
+    box-shadow: 30px 10px 5px black;
 }
 
 h1,
@@ -123,15 +123,18 @@ button {
 }
 
 #applyBtn {
-    background-color: grey;
+    background-color: #7b7d7d;
 }
 
-footer {
+.footer {
     position: fixed;
-    bottom: 0;
+    top: 40%;
+    width: 40%;
     left: 0;
-    width: 100%;
+    background-color: black;
+    color: white;
+    opacity: 0.8;
+    border-radius: 5px;
     text-align: center;
-    padding: 10px;
-    font-size: 20px;
+    /* font-size: 20px; */
 }
