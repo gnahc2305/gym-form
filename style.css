@@ -1,4 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;800&display=swap');
+@font-face {
+    font-family: 'MontSerrat';
+    src: url(/fonts/Montserrat-VariableFont_wght.ttf)
+}
 @media only screen and (max-width: 1134px) {
     .form-first-row {
         padding-right: 200px;
@@ -12,7 +15,7 @@
 * {
     /* background: #272727;
     color: white; */
-    font-family: Open Sans, Arial, Helvetica, sans-serif;
+    font-family: MontSerrat, Arial, Helvetica, sans-serif;
 }
 
 img {
@@ -29,12 +32,13 @@ img {
     width: 60%;
     position: absolute;
     right: 0;
-    background-image: linear-gradient(to right, white, rgb(86, 131, 53));
+    background-image: linear-gradient(to right, white, rgb(88, 88, 88));
     top: 50%;
     margin: 0;
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
     border-radius: 8px;
+    /* box-shadow: 30px 10px 5px black; */
 }
 
 h1,
@@ -116,4 +120,18 @@ button {
 
 #btnTwo:active {
     background-color: rgb(240, 131, 131);
+}
+
+#applyBtn {
+    background-color: grey;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
 }

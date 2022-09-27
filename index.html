@@ -9,76 +9,76 @@
 </head>
 <body>
     <div class="image">
-        <img src="bg_image.jpg" alt="backgroundImage">
+        <img src="/images/gym.jpg" alt="backgroundImage">
     </div>
-<div class="content">
-    <div class="header">
-        <h1>Gym Form</h1>    
-        <h4>Insert Details of workout (Future Implementation: Save Info on a Database)</h4>
+    <div class="content">
+        <div class="header">
+            <h1>Gym Form</h1>    
+            <h4>Insert Details of workout (Future Implementation: Save Info on a Database)</h4>
+        </div>
+
+        <div class="form-div">
+            <form action="" method="get">
+                <select name="workout" id="workout"> 
+                    <option value="push">Push</option>
+                    <option value="legs">Legs</option>
+                    <option value="pull">Pull</option>
+                </select>
+                <button type="button" id="applyBtn">Apply</button>
+
+                <div class="form-first-row">
+                    <select name="exerciseOne" id="exerciseOne">
+                        <option value="mChestPress">Machine Chest Press</option>
+                        <option value="legExtension">Leg Extensions</option>
+                        <option value="bicepCurl">Bicep Curl</option>
+                        <input type="text" id="inputOne" placeholder="Kg/Lb">
+                    </select>
+                    <select name="exerciseTwo" id="exerciseTwo">
+                        <option value="skullCrushers">Skull Crushers</option>
+                        <option value="legCurl">Leg Curl</option>
+                        <option value="latPulldown">Lat Pulldown</option>
+                        <input type="text" placeholder="Kg/Lb">
+                    </select>
+                </div>  
+
+                <div class="second-row">
+                    <select name="exerciseThree" id="exerciseThree">
+                        <option value="overheadPressD">Overhead Press Dumbells</option>
+                        <option value="walkingLunges">Walking Lunges</option>
+                        <option value="standingCableRow">Standing Cable Row</option>
+                        <input type="text"  id="inputTwo" placeholder="Kg/Lb">
+                    </select>
+                    <select name="exerciseFour" id="exerciseFour">
+                        <option value="lateralRaises">Lateral Raises</option>
+                        <option value="bulgarianSquat">Bulgarian Split Squat</option>
+                        <option value="seatedRow">Seated Row</option>
+                        <input type="text" placeholder="Kg/Lb">
+                    </select>
+                </div>
+
+                <div class="third-row">
+                    <select name="exerciseFive" id="exerciseFive">
+                        <option value="rearDelts">Rear Delts?</option>
+                        <option value="dumbellSquats">Dumbell Squats</option>
+                        <option value="tricepPushdown">Tricep Pushdown</option>
+                        <input type="text" placeholder="Kg/Lb">
+                    </select>
+                </div>
+
+                <div class="fourth-row">
+                    <textarea name="comment" id="comment" cols="45" rows="6" placeholder="Extra Comments"></textarea>
+                </div>
+
+                <div class="fifth-row">
+                    <button type="submit" id="btnOne">Submit</button>
+                    <button type="reset" id="btnTwo">Reset</button>
+                </div>
+
+            </form>
+        </div>
     </div>
 
-    <div class="form-div">
-        <form action="" method="get">
-            <select name="workout" id="workout"> 
-                <option value="push">Push</option>
-                <option value="legs">Legs</option>
-                <option value="pull">Pull</option>
-            </select>
-            <button type="button" id="applyBtn">Apply</button>
-
-            <div class="form-first-row">
-                <select name="exerciseOne" id="exerciseOne">
-                    <option value="mChestPress">Machine Chest Press</option>
-                    <option value="legExtension">Leg Extensions</option>
-                    <option value="bicepCurl">Bicep Curl</option>
-                    <input type="text" id="inputOne" placeholder="Kg/Lb">
-                </select>
-                <select name="exerciseTwo" id="exerciseTwo">
-                    <option value="skullCrushers">Skull Crushers</option>
-                    <option value="legCurl">Leg Curl</option>
-                    <option value="latPulldown">Lat Pulldown</option>
-                    <input type="text" placeholder="Kg/Lb">
-                </select>
-            </div>  
-
-            <div class="second-row">
-                <select name="exerciseThree" id="exerciseThree">
-                    <option value="overheadPressD">Overhead Press Dumbells</option>
-                    <option value="walkingLunges">Walking Lunges</option>
-                    <option value="standingCableRow">Standing Cable Row</option>
-                    <input type="text"  id="inputTwo" placeholder="Kg/Lb">
-                </select>
-                <select name="exerciseFour" id="exerciseFour">
-                    <option value="lateralRaises">Lateral Raises</option>
-                    <option value="bulgarianSquat">Bulgarian Split Squat</option>
-                    <option value="seatedRow">Seated Row</option>
-                    <input type="text" placeholder="Kg/Lb">
-                </select>
-            </div>
-
-            <div class="third-row">
-                <select name="exerciseFive" id="exerciseFive">
-                    <option value="rearDelts">Rear Delts?</option>
-                    <option value="dumbellSquats">Dumbell Squats</option>
-                    <option value="tricepPushdown">Tricep Pushdown</option>
-                    <input type="text" placeholder="Kg/Lb">
-                </select>
-            </div>
-
-            <div class="fourth-row">
-                <textarea name="comment" id="comment" cols="45" rows="6" placeholder="Extra Comments"></textarea>
-            </div>
-
-            <div class="fifth-row">
-                <button type="submit" id="btnOne">Submit</button>
-                <button type="reset" id="btnTwo">Reset</button>
-            </div>
-
-        </form>
-    </div>
-</div>
-
-
+    <footer>By: Andres Chang</footer>
 
 <script src="script.js"></script>
 </body>
