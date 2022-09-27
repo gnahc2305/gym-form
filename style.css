@@ -54,8 +54,9 @@ h4 {
 #workout {
     font-size: 20px;
     border-radius: 5px;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
     padding: 5px 20px;
+    width: 115px;
 }
 
 .form-first-row > select,
@@ -123,7 +124,7 @@ button {
 }
 
 #applyBtn {
-    background-color: #7b7d7d;
+    background-color: #D88D0E;
 }
 
 .footer {
@@ -139,4 +140,17 @@ button {
 
 .footer p {
     font-size: 13px;
+}
+
+select,
+input,
+textarea {
+    border-color: #5995DA;
+}
+
+#date {
+    margin-bottom: 30px;
+    border-radius: 5px;
+    height: 30px;
+    width: 115px;
 }
