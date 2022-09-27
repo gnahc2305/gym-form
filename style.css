@@ -54,42 +54,8 @@ h4 {
     padding: 5px 20px;
 }
 
-.form-first-row > select {
-    margin-bottom: 30px;
-    border-radius: 5px;
-    padding: 5px 10px;
-    font-size: 15px;
-    width: 225px;
-}
-
-.form-first-row > input {
-    width: 50px;
-    height: 28px;
-    border-radius: 5px;
-}
-
-#inputOne {
-    margin-right: 50px;
-}
-
-.second-row > select {
-    margin-bottom: 30px;
-    border-radius: 5px;
-    padding: 5px 10px;
-    font-size: 15px;
-    width: 225px;
-}
-
-.second-row > input {
-    width: 50px;
-    height: 28px;
-    border-radius: 5px;
-}
-
-#inputTwo {
-    margin-right: 50px;
-}
-
+.form-first-row > select,
+.second-row > select,
 .third-row > select {
     margin-bottom: 30px;
     border-radius: 5px;
@@ -98,11 +64,17 @@ h4 {
     width: 225px;
 }
 
+.form-first-row > input,
+.second-row > input,
 .third-row > input {
     width: 50px;
-    margin-right: 50px;
     height: 28px;
     border-radius: 5px;
+}
+
+#inputOne,
+#inputTwo {
+    margin-right: 50px;
 }
 
 textarea {
