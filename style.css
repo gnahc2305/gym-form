@@ -1,8 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;800&display=swap');
+@media only screen and (max-width: 1134px) {
+    .form-first-row {
+        padding-right: 200px;
+    }
+
+    .second-row {
+        padding-right: 200px;
+    }
+}
 
 * {
-    /* background: #272727; */
-    /* color: white; */
+    /* background: #272727;
+    color: white; */
     /* height: 100vh; */
     font-family: Open Sans, Arial, Helvetica, sans-serif;
 }
@@ -45,13 +54,6 @@ h1 {
     padding: 5px 20px;
 }
 
-.form-first-row {
-/*     display: flex;
-    justify-content: right; */
-    background-color: rgb(157, 157, 157);
-    /* text-align: right; */
-}
-
 .form-first-row > select {
     margin-bottom: 30px;
     border-radius: 5px;
@@ -62,9 +64,12 @@ h1 {
 
 .form-first-row > input {
     width: 50px;
-    margin-right: 50px;
     height: 28px;
     border-radius: 5px;
+}
+
+#inputOne {
+    margin-right: 50px;
 }
 
 .second-row > select {
@@ -77,9 +82,12 @@ h1 {
 
 .second-row > input {
     width: 50px;
-    margin-right: 50px;
     height: 28px;
     border-radius: 5px;
+}
+
+#inputTwo {
+    margin-right: 50px;
 }
 
 .third-row > select {
