@@ -23,8 +23,8 @@ img {
     right: 0;
 }
 
-.header {
-    /* text-align: center; */
+h1 {
+    padding-left: 30px;
 }
 
 .form-div {
@@ -35,12 +35,14 @@ img {
     border-radius: 5px;
     /* margin-right: 30px; */
     /* flex-direction: column; */
+    padding: 5px 30px;
 }
 
 #workout {
-    padding: 5px 20px;
     font-size: 20px;
     border-radius: 5px;
+    margin-bottom: 50px;
+    padding: 5px 20px;
 }
 
 .form-first-row {
@@ -51,18 +53,87 @@ img {
 }
 
 .form-first-row > select {
-    margin: 20px 10px;
+    margin-bottom: 30px;
     border-radius: 5px;
     padding: 5px 10px;
     font-size: 15px;
+    width: 225px;
 }
 
-.form-second-row {
-    /* text-align: center; */
-}
-
-.form-second-row > input {
-    border-radius: 5px;
-    margin: 20px 10px;
+.form-first-row > input {
     width: 50px;
+    margin-right: 50px;
+    height: 28px;
+    border-radius: 5px;
+}
+
+.second-row > select {
+    margin-bottom: 30px;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 15px;
+    width: 225px;
+}
+
+.second-row > input {
+    width: 50px;
+    margin-right: 50px;
+    height: 28px;
+    border-radius: 5px;
+}
+
+.third-row > select {
+    margin-bottom: 30px;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 15px;
+    width: 225px;
+}
+
+.third-row > input {
+    width: 50px;
+    margin-right: 50px;
+    height: 28px;
+    border-radius: 5px;
+}
+
+textarea {
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+button {
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;  
+    padding: 10px 40px;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+
+#btnOne:hover {
+    background-color: #76AEED;
+}
+
+#btnOne:active {
+    background-color: #407FC7;
+}
+
+#btnOne {
+    color: #FFFFFF;
+    background-color: #5995DA;
+}
+
+#btnTwo {
+    color: #FFFFFF;
+    background-color: rgb(226, 98, 98);
+}
+
+#btnTwo:hover {
+    background-color: rgb(240, 131, 131);
+}
+
+#btnTwo:active {
+    background-color: rgb(240, 131, 131);
 }
