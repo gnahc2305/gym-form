@@ -30,7 +30,7 @@
                 </select>
                 <button type="button" id="applyBtn">Apply</button>
                 <h3 id="h3Date">Enter Date:</h3>
-                <input type="date" id="date" required>
+                <input type="date" id="date" name="date" required>
 
                 <div class="form-first-row">
                     <h3 id="h3Exercises">Exercises:</h3>
@@ -38,14 +38,14 @@
                         <option value="mChestPress">Machine Chest Press</option>
                         <option value="legExtension">Leg Extensions</option>
                         <option value="bicepCurl">Bicep Curl</option>
-                        <input type="text" id="inputOne" placeholder="Kg/Lb" required>
                     </select>
+                    <input type="text" id="inputOne" placeholder="Kg/Lb" name="weight1" required>
                     <select name="exerciseTwo" id="exerciseTwo">
                         <option value="skullCrushers">Skull Crushers</option>
                         <option value="legCurl">Leg Curl</option>
                         <option value="latPulldown">Lat Pulldown</option>
-                        <input type="text" placeholder="Kg/Lb" required>
                     </select>
+                    <input type="text" placeholder="Kg/Lb" id="weight2" name="weight2" required>
                 </div>  
 
                 <div class="second-row">
@@ -53,14 +53,14 @@
                         <option value="overheadPressD">Overhead Press Dumbells</option>
                         <option value="walkingLunges">Walking Lunges</option>
                         <option value="standingCableRow">Standing Cable Row</option>
-                        <input type="text"  id="inputTwo" placeholder="Kg/Lb" required>
                     </select>
+                    <input type="text"  id="inputTwo" placeholder="Kg/Lb" name="weight3" required>
                     <select name="exerciseFour" id="exerciseFour">
                         <option value="lateralRaises">Lateral Raises</option>
                         <option value="bulgarianSquat">Bulgarian Split Squat</option>
                         <option value="seatedRow">Seated Row</option>
-                        <input type="text" placeholder="Kg/Lb" required>
                     </select>
+                    <input type="text" placeholder="Kg/Lb" id="weight4" name="weight4" required>
                 </div>
 
                 <div class="third-row">
@@ -68,8 +68,8 @@
                         <option value="rearDelts">Rear Delts?</option>
                         <option value="dumbellSquats">Dumbell Squats</option>
                         <option value="tricepPushdown">Tricep Pushdown</option>
-                        <input type="text" placeholder="Kg/Lb" required>
                     </select>
+                    <input type="text" placeholder="Kg/Lb" id="weight5" name="weight5" required>
                 </div>
 
                 <div class="fourth-row">
@@ -77,7 +77,7 @@
                 </div>
 
                 <div class="fifth-row">
-                    <button type="submit" id="btnOne">Submit</button>
+                    <button id="btnOne" type="button" onclick="saveFile()">Submit</button>
                     <button type="reset" id="btnTwo">Reset</button>
                 </div>
 
