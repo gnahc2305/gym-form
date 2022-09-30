@@ -32,13 +32,14 @@ img {
     width: 60%;
     position: absolute;
     right: 0;
-    background-image: linear-gradient(to right, rgb(125, 122, 122), #303538);
+    /* background-image: linear-gradient(to right, rgb(125, 122, 122), #303538); */
+    background-color: #d6d8da;
     top: 50%;
     margin: 0;
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
     border-radius: 10px;
-    /* box-shadow: 30px 10px 5px black; */
+    box-shadow: 20px 5px 5px black;
 }
 
 h1,
